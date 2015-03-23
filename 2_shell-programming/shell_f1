@@ -1,0 +1,10 @@
+#!/bin/bash
+
+function fun(){
+  echo $#
+}
+
+read -p "enter 1st num "
+read -p "enter 2nd num "
+
+fun
